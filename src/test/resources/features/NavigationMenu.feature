@@ -1,17 +1,20 @@
 @navigate
-Feature:  Users should be able to navigate to pages
-@vehicle
-  Scenario: Navigate to Vehicles under Fleet using the top menu
-    Given the user is on the dashboard page
-    When the user navigate to Fleet then Vehicles option
-    Then the expected url should be https://qa3.vytrack.com/entity/fleet
-@campaings
-  Scenario: Navigate to Campaigns under Marketing using the top menu
-    Given the user is on the dashboard page
-    When the user navigate to Marketing then Campaigns option
-    Then the expected url should be https://qa3.vytrack.com/campaign/
-@calendarEvents
-  Scenario: Navigate to Calendar Events under Activities using the top menu
-    Given the user is on the dashboard page
-    When the user navigate to Activities then Calendar Events option
-    Then the expected url should be https://qa3.vytrack.com/calendar/event
+Feature: Navigation Menu
+@store_manager @db
+  Scenario: Fleet --> Vehicles
+    Given the user is on the login page
+    And the user enter the sales manager information
+    When the user navigates to Fleet, Vehicles
+    Then the url should be expected Fleet url
+  @sales_manager
+  Scenario: Sales managers - Marketing—> Campaigns navigation
+    Given the user is on the login page
+    And the user enter the sales manager information
+    When  the user navigates Marketing Campaigns
+    Then the url should be expected Campaigns url
+  @store_manager @db
+  Scenario: Activities—> Calendar Events
+    Given the user is on the login page
+    And the user enter the sales manager information
+    When the user navigates Activities - Calendar events
+    Then the url should be expected Activities url
