@@ -3,11 +3,32 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-01-19T17:59:35.960Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11138337000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-21T20:49:23.957Z",
         "before": [
           {
             "result": {
-              "duration": 2304600,
+              "duration": 1633400,
               "status": "passed"
             },
             "match": {
@@ -15,14 +36,14 @@
             }
           }
         ],
-        "line": 4,
+        "line": 7,
         "name": "Login as a driver",
         "description": "",
         "id": "users-should-be-able-to-login;login-as-a-driver",
         "after": [
           {
             "result": {
-              "duration": 1020766000,
+              "duration": 806631900,
               "status": "passed"
             },
             "match": {
@@ -31,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 230800,
+              "duration": 324800,
               "status": "passed"
             },
             "match": {
@@ -44,22 +65,10 @@
         "steps": [
           {
             "result": {
-              "duration": 8878609900,
+              "duration": 31073656900,
               "status": "passed"
             },
-            "line": 5,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4946319200,
-              "status": "passed"
-            },
-            "line": 6,
+            "line": 9,
             "name": "the user enter the driver information",
             "match": {
               "location": "LoginStepDefs.the_user_enter_the_driver_information()"
@@ -68,10 +77,10 @@
           },
           {
             "result": {
-              "duration": 2018602300,
+              "duration": 2031736200,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
             "name": "the user should be able to login",
             "match": {
               "location": "LoginStepDefs.the_user_should_be_able_to_login()"
@@ -91,18 +100,36 @@
           },
           {
             "name": "@smoke"
-          },
-          {
-            "name": "@wip"
           }
         ]
       },
       {
-        "start_timestamp": "2020-01-19T17:59:52.841Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12353494800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-21T20:50:09.085Z",
         "before": [
           {
             "result": {
-              "duration": 222600,
+              "duration": 418300,
               "status": "passed"
             },
             "match": {
@@ -111,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 157400,
+              "duration": 312700,
               "status": "passed"
             },
             "match": {
@@ -119,14 +146,14 @@
             }
           }
         ],
-        "line": 9,
+        "line": 12,
         "name": "Login as a sales manager",
         "description": "",
         "id": "users-should-be-able-to-login;login-as-a-sales-manager",
         "after": [
           {
             "result": {
-              "duration": 794468900,
+              "duration": 771921100,
               "status": "passed"
             },
             "match": {
@@ -135,20 +162,20 @@
           },
           {
             "result": {
-              "duration": 200900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDownDatabase()"
-            }
-          },
-          {
-            "result": {
-              "duration": 120900,
+              "duration": 253400,
               "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 169900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownDatabase()"
             }
           }
         ],
@@ -157,22 +184,10 @@
         "steps": [
           {
             "result": {
-              "duration": 7386752800,
+              "duration": 21912656400,
               "status": "passed"
             },
-            "line": 10,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 10540853300,
-              "status": "passed"
-            },
-            "line": 11,
+            "line": 14,
             "name": "the user enter the sales manager information",
             "match": {
               "location": "LoginStepDefs.the_user_enter_the_sales_manager_information()"
@@ -181,10 +196,10 @@
           },
           {
             "result": {
-              "duration": 2008910000,
+              "duration": 2029508500,
               "status": "passed"
             },
-            "line": 12,
+            "line": 15,
             "name": "the user should be able to login",
             "match": {
               "location": "LoginStepDefs.the_user_should_be_able_to_login()"
@@ -211,11 +226,32 @@
         ]
       },
       {
-        "start_timestamp": "2020-01-19T18:00:13.580Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8339777400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-21T20:50:46.172Z",
         "before": [
           {
             "result": {
-              "duration": 251600,
+              "duration": 216900,
               "status": "passed"
             },
             "match": {
@@ -224,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 204300,
+              "duration": 164200,
               "status": "passed"
             },
             "match": {
@@ -232,14 +268,14 @@
             }
           }
         ],
-        "line": 14,
+        "line": 17,
         "name": "Login as a store manager",
         "description": "",
         "id": "users-should-be-able-to-login;login-as-a-store-manager",
         "after": [
           {
             "result": {
-              "duration": 846086800,
+              "duration": 930474000,
               "status": "passed"
             },
             "match": {
@@ -248,20 +284,20 @@
           },
           {
             "result": {
-              "duration": 89700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDownDatabase()"
-            }
-          },
-          {
-            "result": {
-              "duration": 39600,
+              "duration": 249400,
               "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 212000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownDatabase()"
             }
           }
         ],
@@ -270,22 +306,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6845039600,
+              "duration": 24085060100,
               "status": "passed"
             },
-            "line": 15,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4682691800,
-              "status": "passed"
-            },
-            "line": 16,
+            "line": 19,
             "name": "the user enter the store manager information",
             "match": {
               "location": "LoginStepDefs.the_user_enter_the_store_manager_information()"
@@ -294,10 +318,10 @@
           },
           {
             "result": {
-              "duration": 2017251600,
+              "duration": 2009248300,
               "status": "passed"
             },
-            "line": 17,
+            "line": 20,
             "name": "the user should be able to login",
             "match": {
               "location": "LoginStepDefs.the_user_should_be_able_to_login()"
