@@ -1,4 +1,5 @@
 package com.vytrack.step_definitions;
+import com.vytrack.pages.DashboardPage;
 import com.vytrack.pages.LoginPage;
 import com.vytrack.utilities.BrowserUtils;
 import com.vytrack.utilities.ConfigurationReader;
@@ -51,8 +52,9 @@ public class LoginStepDefs {
     }
     @Then("the title should contains {string}")
     public void the_title_should_contains(String expectedTitle) {
+        new DashboardPage().waitUntilLoaderScreenDisappear();
         System.out.println("expectedTitle = " + expectedTitle);
-        Assert.assertTrue(Driver.get().getTitle().contains(expectedTitle));
+        Assert.assertTrue("Actual title:"+Driver.get().getTitle(),Driver.get().getTitle().contains(expectedTitle));
     }
     @Given("the user logged in as a {string}")
     public void the_user_logged_in_as_a(String user) {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vytrack.runners.CukesRunner" time="52.955" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vytrack.runners.CukesRunner" time="552.692" tests="24" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\omera\AppData\Local\Temp\surefire9557320485077710534\surefirebooter10384478955972015815.jar C:\Users\omera\AppData\Local\Temp\surefire9557320485077710534 2020-01-19T20-59-32_921-jvmRun1 surefire6672576497858942724tmp surefire_017323047733813610250tmp"/>
+    <property name="sun.java.command" value="C:\Users\omera\AppData\Local\Temp\surefire11391139458237417333\surefirebooter15721984547919108887.jar C:\Users\omera\AppData\Local\Temp\surefire11391139458237417333 2020-01-22T23-56-45_852-jvmRun1 surefire15456535127731784800tmp surefire_0228802251961071466tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\target\test-classes;C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\target\classes;C:\Users\omera\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\omera\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\omera\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\omera\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\omera\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\omera\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\omera\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\omera\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\omera\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\omera\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\omera\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\omera\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\omera\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\omera\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\omera\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\omera\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\omera\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\omera\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\omera\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\omera\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\omera\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.0\webdrivermanager-3.8.0.jar;C:\Users\omera\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\omera\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\omera\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\omera\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\omera\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\omera\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\omera\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\omera\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\omera\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\omera\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\omera\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\omera\.m2\repository\io\cucumber\cucumber-junit\4.8.1\cucumber-junit-4.8.1.jar;C:\Users\omera\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\omera\.m2\repository\io\cucumber\cucumber-core\4.8.1\cucumber-core-4.8.1.jar;C:\Users\omera\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\omera\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\omera\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\omera\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\omera\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\omera\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\omera\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\omera\.m2\repository\io\cucumber\cucumber-java\4.8.1\cucumber-java-4.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\omera\AppData\Local\Temp\surefire9557320485077710534\surefirebooter10384478955972015815.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\omera\AppData\Local\Temp\surefire11391139458237417333\surefirebooter15721984547919108887.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -59,7 +59,107 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="Login as a driver" classname="Users should be able to login" time="16.879"/>
-  <testcase name="Login as a sales manager" classname="Users should be able to login" time="20.739"/>
-  <testcase name="Login as a store manager" classname="Users should be able to login" time="14.397"/>
+  <testcase name="Driver user" classname="Account types" time="28.224"/>
+  <testcase name="Sales manager user" classname="Account types" time="21.189"/>
+  <testcase name="Store manager user" classname="Account types" time="21.718"/>
+  <testcase name="Login with different users driver" classname="Account types" time="23.195"/>
+  <testcase name="Login with different users driver" classname="Account types" time="23.066"/>
+  <testcase name="Login with different users driver" classname="Account types" time="22.877"/>
+  <testcase name="Login with different users driver" classname="Account types" time="20.174"/>
+  <testcase name="Login with different users driver" classname="Account types" time="21.456"/>
+  <testcase name="Login with different users sales manager" classname="Account types" time="26.313"/>
+  <testcase name="Login with different users sales manager" classname="Account types" time="21.139"/>
+  <testcase name="Login with different users sales manager" classname="Account types" time="23.32"/>
+  <testcase name="Login with different users sales manager" classname="Account types" time="26.07"/>
+  <testcase name="Login with different users sales manager" classname="Account types" time="21.883"/>
+  <testcase name="Login with different users sales manager" classname="Account types" time="21.645"/>
+  <testcase name="Login with different users store manager" classname="Account types" time="24.488"/>
+  <testcase name="Login with different users store manager" classname="Account types" time="24.692"/>
+  <testcase name="Login with different users store manager" classname="Account types" time="23.516"/>
+  <testcase name="Login with different users store manager" classname="Account types" time="23.692"/>
+  <testcase name="Login with different users store manager" classname="Account types" time="23.991"/>
+  <testcase name="Login with different users store manager" classname="Account types" time="23.881">
+    <failure message="Actual title:Jobs - System" type="java.lang.AssertionError">java.lang.AssertionError: Actual title:Jobs - System
+</failure>
+    <system-out><![CDATA[	this is coming from BEFORE
+expectedTitle = All - Jobs - System
+	this is coming from AFTER
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 39101
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579727054.886][WARNING]: Timed out connecting to Chrome, retrying...
+Jan 23, 2020 12:04:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (f8f7764040f123a98149bff141c71e99)] -> css selector: div[class='loader-mask shown']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J7KKCTL', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\omera\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63902}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8f7764040f123a98149bff141c71e99
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.vytrack.pages.BasePage.waitUntilLoaderScreenDisappear(BasePage.java:61)
+	at com.vytrack.step_definitions.LoginStepDefs.the_title_should_contains(LoginStepDefs.java:55)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="Login with different users store manager" classname="Account types" time="20.489">
+    <failure message="Actual title:Dashboard" type="java.lang.AssertionError">java.lang.AssertionError: Actual title:Dashboard
+</failure>
+    <system-out><![CDATA[	this is coming from BEFORE
+expectedTitle = All - Menus - System
+	this is coming from AFTER
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 44445
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579727078.847][WARNING]: Timed out connecting to Chrome, retrying...
+Jan 23, 2020 12:04:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="login as a given user DDF" classname="Contacts Page" time="26.672"/>
+  <testcase name="login as a given user DDF" classname="Contacts Page" time="18.993"/>
+  <testcase name="login as a given user DDF" classname="Contacts Page" time="18.753"/>
 </testsuite>

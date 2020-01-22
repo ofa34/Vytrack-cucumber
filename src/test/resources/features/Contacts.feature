@@ -18,7 +18,7 @@ Feature: Contacts Page
       | Customers  |
       | Activities |
       | System     |
-  @wip
+
     Scenario: login as a given user
       Given the user is on the login page
       When the use logs in using following credentials
@@ -27,3 +27,18 @@ Feature: Contacts Page
         |firstname|John|
         |lastname|Doe|
       Then the user should be able to login
+
+  @wip
+  Scenario Outline: login as a given user DDF
+    Given the user is on the login page
+    When the use logs in using following credentials
+      | username  | <username>  |
+      | password  | UserUser123 |
+      | firstname | <firstname> |
+      | lastname  | <lastname>  |
+    Then the user should be able to login
+    Examples:
+      | username        | firstname          | lastname |
+      | user1           | John               | Doe      |
+      | salesmanager101 | Peyton             | Harber   |
+      | storemanager85  | Marcella bnmbnmbmn | Huels    |
