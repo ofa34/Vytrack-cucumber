@@ -56,7 +56,7 @@ Feature: Contacts Page
     When the user click "odugmore5@sakura.ne.jp" from contacts
     Then the information "odugmore5@sakura.ne.jp" should be the same with database
 
-  @wip @db
+  @wip @db @regression
   Scenario Outline: Contacts test with email
     Given the user logged in as a "store manager"
     And the user navigates "Customers" "Contacts"
