@@ -1,5 +1,5 @@
 
-@wip
+
 Feature: Account types
   Scenario: Driver user
     Given the user logged in as a "driver"

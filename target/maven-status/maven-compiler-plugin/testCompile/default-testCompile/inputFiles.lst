@@ -1,11 +1,13 @@
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\step_definitions\LoginStepDefs.java
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\pages\CalendarEventsPage.java
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\pages\CreateCalendarEventsPage.java
+C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\step_definitions\ContactsStepDefs.java
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\utilities\ConfigurationReader.java
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\pages\LoginPage.java
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\utilities\BrowserUtils.java
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\pages\ContactsPage.java
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\pages\DashboardPage.java
+C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\runners\FailedTestRunner.java
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\runners\CukesRunner.java
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\pages\BasePage.java
 C:\Users\omera\IdeaProjects\summer-2019-europe-cucumber-selenium\src\test\java\com\vytrack\utilities\Driver.java

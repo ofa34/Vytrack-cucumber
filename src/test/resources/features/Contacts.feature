@@ -28,7 +28,7 @@ Feature: Contacts Page
         |lastname|Doe|
       Then the user should be able to login
 
-  @wip
+
   Scenario Outline: login as a given user DDF
     Given the user is on the login page
     When the use logs in using following credentials
@@ -42,3 +42,30 @@ Feature: Contacts Page
       | user1           | John               | Doe      |
       | salesmanager101 | Peyton             | Harber   |
       | storemanager85  | Marcella bnmbnmbmn | Huels    |
+   @db
+  Scenario: Contacts test with email
+    Given the user logged in as a "store manager"
+    And the user navigates "Customers" "Contacts"
+    When the user click "mbrackstone9@example.com" from contacts
+    Then the information should be the same with database
+
+  @db
+  Scenario: Contacts test with email
+    Given the user logged in as a "store manager"
+    And the user navigates "Customers" "Contacts"
+    When the user click "odugmore5@sakura.ne.jp" from contacts
+    Then the information "odugmore5@sakura.ne.jp" should be the same with database
+
+  @wip @db
+  Scenario Outline: Contacts test with email
+    Given the user logged in as a "store manager"
+    And the user navigates "Customers" "Contacts"
+    When the user click "<email>" from contacts
+    Then the information "<email>" should be the same with database
+
+    Examples:
+    |email|
+    |mbrackstone9@example.com|
+    |odugmore5@sakura.ne.jp  |
+    |safwansaba@hotmail.com  |
+    |poohchi@bark.edu        |
